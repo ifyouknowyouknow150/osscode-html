@@ -1,0 +1,39 @@
+<html>
+<head>
+<script language="javascript">varinputstring="";
+functionupdatestring(value)
+{
+inputstring+=value;document.calculator.input.value=inputstring;
+}
+</script>
+</head>
+<body>
+<formname="calculator">
+<center>
+<tableborder=3 bordercolor="black">
+<tr>
+<td>
+<inputtype="text"name="input"maxlength=15size=28><br>
+<inputtype="button"value="CLEAR"onclick="input.value=";inputstring="";>
+<inputtype="button"value="MOD"onclick="updatestring(%)"style="width:60">
+<inputtype="button"value="+"onclick="updatestring(+)"style="width:50"><br>
+<inputtype="button"value="7"onclick="updatestring(7)"style="width:40">
+<inputtype="button"value="8"onclick="updatestring(8)"style="width:40">
+<inputtype="button"value="9"onclick="updatestring(9)"style="width:40">
+<inputtype="button"value="-"onclick="updatestring(-)"style="width:50"><br>
+<inputtype="button"value="4"onclick="updatestring(4)"style="width:40">
+<inputtype="button"value="5"onclick="updatestring(5)"style="width:40">
+<inputtype="button"value="6"onclick="updatestring(6)"style="width:40">
+<inputtype="button"value="*"onclick="updatestring(*)"style="width:50"><br>
+<inputtype="button"value="1"onclick="updatestring(1)"style="width:40">
+<inputtype="button"value="2"onclick="updatestring(2 )"style="width:40">
+<inputtype="button"value="3"onclick="updatestring(3)"style="width:40">
+<inputtype="button"value="/"onclick="updatestring(/)"style="width:50"><br>
+<inputtype="button"value="0"onclick="updatestring(0)"style="width:40">
+<inputtype="button"value="0"onclick="updatestring(0)"style="width:40">
+<inputtype="button"value="="onclick="onclick"input.value=eval(inputstring)"style="width:50";
+</td>
+</table>
+</form>
+</body>
+</html>
